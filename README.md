@@ -6,22 +6,18 @@ NodeJS tool to find ESP32 instances on the network listening to UDP. Supports [W
 
 ESP32Instances is a [MoonModules](http://MoonModules.org) product, ⚖️GPL-v3
 
-# Run
-
-Up and running in seconds:
+# InstallRun
 
 * Clone this repo to folder xyz (choose your place)
 * ```cd xyz```
-* ```node ESP32Instances.js``` to start a webserver listening to udp 65506 and hosting html on 8192. 65506 is used by WLED and Moon. 8192 can be changed if you prefer another port.
-* ```index.html``` to start the webpage showing the instances. Click on the IP number to go to the Instance itself
-
-# Install
-
-In case nodeJS or ws is not installed:
-
 * install nodeJS if not installed already
 * ```npm init -y``` to create package.json
 * ```npm install ws``` to enable websockets
+
+# Run
+
+* ```node ESP32Instances.js``` to start a webserver listening to udp 65506 and hosting html on 8192. 65506 is used by WLED and Moon. 8192 can be changed if you prefer another port.
+* ```index.html``` to start the webpage showing the instances. Click on the IP number to go to the Instance itself
 
 # Remarks
 
